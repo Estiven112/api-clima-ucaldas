@@ -17,9 +17,9 @@ API REST desarrollada en Spring Boot (Java 17) y PostgreSQL para el monitoreo de
 Crea una base de datos en PostgreSQL:
 
 ```sql
-CREATE DATABASE clima_db;
+CREATE DATABASE climadb;
 Ajusta las credenciales en src/main/resources/application.properties:Propertiesserver.port=8081
-spring.datasource.url=jdbc:postgresql://localhost:5432/clima_db
+spring.datasource.url=jdbc:postgresql://localhost:5432/climadb
 spring.datasource.username=postgres
 spring.datasource.password=TU_CONTRASEÑA
 spring.jpa.hibernate.ddl-auto=update
